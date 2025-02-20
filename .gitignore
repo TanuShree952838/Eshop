@@ -1,0 +1,18 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore all __pycache__ directories recursively
+**/__pycache__/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore migration files (optional: only if you don't want them in Git)
+store/migrations/
+
+# Ignore virtual environments and dependency files
+venv/
+.env
+*.log
